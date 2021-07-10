@@ -1,0 +1,205 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: rgba(128, 128, 128, 0.144);
+}
+*{
+    box-sizing: border-box;
+}
+div{
+    display: block;
+    
+}
+.column {
+    float: left;
+    width: 50%;
+    height: 100vh;
+    padding: 10px;
+}
+row {
+    border: solid ;
+    content: "";
+    display: table;
+    clear: both;
+}
+.vertical {
+    margin-top: 20px;
+    margin-bottom: 200px;
+    height: 70em;
+    position: absolute;
+    left: 50%;
+    border-style: none dashed none none;
+    border-color: rgb(153, 170, 186);
+}
+.obesity{
+    font-size: 35px;
+    font-weight:bolder;
+    text-align: center;
+    color:rgb(13, 174, 238);
+}
+.inforganics{
+    font-size: 35px;
+    font-weight:bolder;
+    text-align: center;
+    color:orange;
+}
+.lorem-text{
+    font-weight:bold;
+    text-align:center;
+    font-size:25px;
+    color:black;
+}
+.boxed {
+    border: 1px solid blue;
+    width: 90%;
+    margin-left: 40px;
+    margin-top:30px;
+    color: white;
+    font-size: 20px;
+    height: 35px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: #19AEC2;
+}
+.categeroy{
+    color:blueviolet; 
+    font-size: 50px;
+}
+.text1{
+    color:rgba(0, 0, 255, 0.616);
+    text-align:left;
+    font-size:45px;
+    font-weight:bold;
+}
+.drink{
+    margin-left:30px;
+}
+.lorem-text1{
+    color:rgb(13, 174, 238);
+    text-align: left;
+    font-weight: bold;
+    justify-content:space-between;
+    font-size:20px;
+}
+.boxed1 {
+    border: 1px solid blue;
+    width: 150%;
+    color: white;
+    font-size: 20px;
+    height: 35px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: #19AEC2;
+}
+.info{
+   
+    text-align:right;
+    padding-right: 300px;
+}
+.ctext1{
+    
+    text-align:right;
+    color:cornflowerblue;
+    font-size: 35px;
+    font-weight: bold;
+}
+.ctext2{
+    
+    text-align:right;
+    color:orange;
+    font-size:30px;
+    font-weight: bold;
+}
+.ctext3{
+    display:flex;
+    justify-content: start;
+    text-align:right;
+    color:rgb(13, 174, 238);
+    font-size:21px;
+    font-weight: bold;
+}
+.ctext1,.ctext2,.ctext3{
+    margin-left:0px;
+    padding-left:0px;
+}
+.categery, .categery1{
+    float: right;
+    font-size:30px;
+    font-weight:bold;
+    color:orange;
+}
+.percentage, .percentage1{
+    float: right;
+    font-size:40px;
+    font-weight:bold;
+    color:rgba(0, 0, 255, 0.61);
+}
+
+.healthy{
+    color:blue;
+    font-size:30px;
+    font-weight: bold;
+}
+.images{
+    display: flex;
+    justify-content:space-around;
+
+}
+.products{
+
+    color:rgb(13, 174, 238);
+    font-size:27px;
+    font-weight: bold;
+}
+.percent{
+    color:orange;
+    font-size:40px;
+    font-weight: bold;
+}
+.diseases{
+    color:rgba(0, 0, 255, 0.568);
+    font-size:30px;
+    font-weight: bold;
+}
+.people{
+    color:orange;
+    font-size:30px;
+    font-weight: bold;
+}
+.lorem{
+    color:rgb(13, 174, 238);
+    font-size:15px;
+    font-weight: bold;
+}
+
+.banner-img1{
+    display:flex;
+    justify-content:space-between;
+}
+.banner-img2{
+    display:flex;
+    justify-content:space-around;
+}
+.banner-img3{
+    display:flex;
+    justify-content:space-around;
+}
+.junk{
+    margin-left: 100px;
+}
+.banner-image{
+    display:flex;
+    justify-content:space-between;
+}
+ .banner-img6, .banner-img7, .banner-img8{
+    display:flex;
+    justify-content:flex-end;
+    color:orange;
+    font-weight: bold;
+    font-size:20px;
+    margin-top: 15px;
+}
+.disease{
+   padding-left: 200px;
+   margin-top:30px;
+}
